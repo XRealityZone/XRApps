@@ -1,0 +1,10 @@
+{
+    "id": "cfffb1e7-efa3-4003-9c89-a4463890cc85",
+    "name": "Happy Beam",
+    "icon": "icon.png",
+    "version": "1.0.0",
+    "repo": "https://github.com/XRealityZone/Apple_HappyBeam",
+    "category": "Developer",
+    "bundle": "com.example.apple-samplecode.happybeam",
+    "slogan": "Leverage a Full Space to create a fun game using ARKit."
+}

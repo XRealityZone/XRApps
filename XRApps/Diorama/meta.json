@@ -1,0 +1,10 @@
+{
+    "id": "ce8447e8-9744-4f14-9fd6-a1af8709e0b9",
+    "name": "Destination Video",
+    "icon": "icon.png",
+    "version": "1.0.0",
+    "repo": "https://github.com/XRealityZone/Apple_Diorama",
+    "category": "Developer",
+    "bundle": "com.example.apple-samplecode.Diorama",
+    "slogan": "Design scenes for your visionOS app using Reality Composer Pro."
+}

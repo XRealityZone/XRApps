@@ -1,0 +1,10 @@
+{
+    "id": "fcd2ef05-d697-40b6-b0aa-37d0789f4fb4",
+    "name": "Destination Video",
+    "icon": "icon.png",
+    "version": "1.0.0",
+    "repo": "https://github.com/XRealityZone/Apple_DestinationVideo",
+    "category": "Developer",
+    "bundle": "com.example.apple-samplecode.DestinationVideo",
+    "slogan": "Leverage 3D video and Spatial Audio to deliver an immersive experience."
+}
