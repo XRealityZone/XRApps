@@ -27,7 +27,9 @@ Let’s visionOS 是一个 visionOS 应用交流平台 ，它将允许你将自�
 
 - 在 GitHub 上创建当前应用的仓库（如果已经创建过，则跳过该步骤）。注意，请保证仓库类型是 `Public` 类型，否则会导致应用信息检索失败
 
-![image](https://github.com/XRealityZone/XRApps/assets/11788119/1e6d4e10-9bbf-4951-a832-e54b9cad488a)
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/1e6d4e10-9bbf-4951-a832-e54b9cad488a" width="50%" height="50%">
+</p>
 
 - 进入该仓库的 `Release` 界面，选择需要发布的 tag 号，并上传压缩包，即之前准备的`app.zip` ，填写相应的 Release 版本名称（推荐此名称与 tag 号保持相同）。
 
@@ -40,11 +42,15 @@ Let’s visionOS 是一个 visionOS 应用交流平台 ，它将允许你将自�
 
 - 对 XReality.Zone 的 [XRApps 仓库](https://github.com/XRealityZone/XRApps) 进行 Fork 操作。
 
-![image](https://github.com/XRealityZone/XRApps/assets/11788119/12e7e8a5-05b3-404b-9416-711638511e0d)
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/12e7e8a5-05b3-404b-9416-711638511e0d" width="50%" height="50%">
+</p>
 
 - 克隆 Fork 后的仓库到本地并创建新的分支，分支的命名规则为 `app/Your_App’s_Bundle_ID`
 
-![image](https://github.com/XRealityZone/XRApps/assets/11788119/404f8549-3653-4044-b913-faf09cee25a3)
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/404f8549-3653-4044-b913-faf09cee25a3" width="50%" height="50%">
+</p>
 
 - 每个需要在平台上发布的应用，都需要在本仓库下的 `XRApps` 中创建一个文件夹，并在文件夹中包含相关文件。为了防止文件夹名称重复，我们建议你将文件夹命名为具有唯一性质的名字，如 Bundle ID。下面是文件夹的基本结构：
 
@@ -81,7 +87,7 @@ Folder
 | icon          | 必要       | 应用图标，推荐大小为512 * 512，自动裁切为圆形，目前还不支持填写图片链接，需要将所有图片存到文件夹中，并在 JSON 文件中使用相对路径调用。                                                                                                     |
 | version       | 必要       | 应用当前版本，支持  `A.B` 和 `A.B.C` 两种格式                                                                                                                                                 |
 | repo          | 必要       | 应用的 GitHub Repo 地址，用于下载应用，该 Repo 无需包含源代码，但必须完成 [在 GitHub 上发布你的产品](craftdocs://open?blockId=F105C081-C8B4-4D9F-9959-DDB95508E30F&spaceId=23c2d78f-f0b2-a42c-f2cb-f0b2393adf52) 。 |
-| category      | 必要       | 应用分类，必须从以下字段中选择：`Business`，`Developer`，`Education`， `Entertainment`，`Finance`，`Games`，`Design`，`Health`，`Lifestyle`，`Medical`                                                   |
+| category      | 必要       | 应用分类，必须从以下字段中选择：`Business`，`Developer Tools`，`Education`， `Entertainment`，`Finance`，`Games`，`Graphics&Design`，`Health&Fitness`，`Lifestyle`，`Medical` ，`Music` ，`Photo&Video`，`Productivity`，`Reference`，`Social Networking`，`Sports`，`Travel`，`Utilities`，`Weather`                                                 |
 | bundle        | 必要       | 上传应用的 Bundle ID                                                                                                                                                                 |
 | featuredImage | 非必要      | 应用精选图片，推荐大小为 1300*800，如不添加，应用将不会在首页精选区展示，每张图片请控制在 1MB 以内；目前还不支持填写图片链接，需要将所有图片存到文件夹中，并在 JSON 文件中使用相对路径调用。                                                                        |
 | slogan        | 非必要      | 应用标语，如果填写了 `featuredImage` 则必须填写该字段                                                                                                                                             |
@@ -108,13 +114,19 @@ Folder
 
 - 提交 commit 到自己的分支和仓库中，并在自己的仓库中发起向 XRealityZone 仓库的 PR 请求。
 
-![image](https://github.com/XRealityZone/XRApps/assets/11788119/a3c9bfdd-3a44-455b-9c91-72dff117e9fa)
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/a3c9bfdd-3a44-455b-9c91-72dff117e9fa" width="50%" height="50%">
+</p>
 
-![image](https://github.com/XRealityZone/XRApps/assets/11788119/3d45a8ab-2120-4a25-bcdf-6417b505c614)
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/3d45a8ab-2120-4a25-bcdf-6417b505c614" width="50%" height="50%">
+</p>
 
 - 等待 XReality.Zone 的工作人员 Review 和 Merge 你的 PR，一旦你的 PR 被合入，就代表你的应用上架到了我们的交流平台。
 
-![image](https://github.com/XRealityZone/XRApps/assets/11788119/cafcd476-ae58-466c-a552-26544e20fc7a)
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/cafcd476-ae58-466c-a552-26544e20fc7a" width="50%" height="50%">
+</p>
 
 ## FAQ
 
@@ -124,11 +136,15 @@ A：获取模拟器版本的二进制文件分为 3 步：
 
 - 点击左上角的 `Run` 按钮或者使用快捷键 `CMD + R` 运行你的 visionOS 程序，确保代码运行的平台为 visionOS 模拟器平台。
 
-![image](https://github.com/XRealityZone/XRApps/assets/11788119/7fac429c-04d0-4a5d-bd26-b1cae603bb79)
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/7fac429c-04d0-4a5d-bd26-b1cae603bb79" width="50%" height="50%">
+</p>
 
 - 在出现 `Build Succeeded` 的提示框后，展开左侧导航栏里的 `Product` 文件夹，在这个目录下会有一个或多个应用（以 `.app` 为后缀的文件）存在，选择你的 visionOS 应用，右键点击并选择 `Show in Finder`按钮。
 
-![image](https://github.com/XRealityZone/XRApps/assets/11788119/c216a253-1fe3-4873-8dc1-098e63b4173a)
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/c216a253-1fe3-4873-8dc1-098e63b4173a" width="50%" height="50%">
+</p>
 
 - 在此文件夹里的 `.app` 文件，即为当前应用在 visionOS 模拟器下的二进制文件。
 
@@ -136,11 +152,15 @@ A：获取模拟器版本的二进制文件分为 3 步：
 
 A: 在仓库首页可以找到 `Release` 区域，点击后即可进入到 `Release` 界面。
 
-![image](https://github.com/XRealityZone/XRApps/assets/11788119/f6dec8ee-cebd-49e3-8e73-482392930444)
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/f6dec8ee-cebd-49e3-8e73-482392930444" width="50%" height="50%">
+</p>
 
 **Q：如何在自己的仓库里创建 tag**
 
 A：在 `Release` 界面点击 `Choose a tag`，并在下拉列表的文本框里填写版本号，在填写完毕后，点击 `+ Create new tag A.B.C on publish` ，目前支持 `A.B` 和 `A.B.C` 两种格式的版本号，请保持版本号的顺序增长，不要出现倒序的情况。
 
-![image](https://github.com/XRealityZone/XRApps/assets/11788119/5b86c3fb-d4f9-4b03-8147-1aa2b6a2aa0b)
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/5b86c3fb-d4f9-4b03-8147-1aa2b6a2aa0b" width="50%" height="50%">
+</p>
 
