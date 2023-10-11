@@ -20,7 +20,7 @@ Let’s visionOS 是一个 visionOS 应用交流平台 ，它将允许你将自�
 
 - 运行你的项目，找到当前应用在 visionOS 模拟器下的二进制文件，将其压缩成 ZIP 包，保证其名称为 `app.zip` ，注意压缩包的名称不能更换，否则会导致检索应用信息失败
 
-![image](https://github.com/XRealityZone/XRApps/assets/11788119/1faeadfa-2fca-4016-80b5-710622c3a55d)
+<img src="https://github.com/XRealityZone/XRApps/assets/11788119/1faeadfa-2fca-4016-80b5-710622c3a55d" width="50%" height="50%" >
 
 - 在 GitHub 上创建当前应用的仓库（如果已经创建过，则跳过该步骤）。注意，请保证仓库类型是 `Public` 类型，否则会导致应用信息检索失败
 
