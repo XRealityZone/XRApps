@@ -5,6 +5,6 @@
     "version": "1.0.0",
     "repo": "https://github.com/XRealityZone/Apple_HelloWord",
     "category": "Developer",
-    "bundle": "com.example.apple-samplecode.World",
+    "bundle": "xyz.sketchk.helloworld",
     "slogan": "Use windows, volumes, and immersive spaces to teach people about the Earth."
 }

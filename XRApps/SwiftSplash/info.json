@@ -1,6 +1,6 @@
 {
     "author": "Apple",
-    "description": "Use RealityKit to create an interactive ride in visionOS.",
-    "developerWebsite": "https://apple.com",
+    "description": "Apple Vision Pro’s ability to combine virtual content seamlessly with the real world allows for many kinds of interactive virtual experiences. Swift Splash leverages RealityKit and Reality Composer Pro to create a virtual water slide by combining modular slide pieces. When the builder finishes their ride, they can release an adventurous goldfish to try it out.",
+    "developerWebsite": "https://developer.apple.com",
     "images": ["1.png", "2.png"]
 }
