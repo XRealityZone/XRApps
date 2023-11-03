@@ -1,0 +1,11 @@
+{
+    "id": "737ce52b-8afc-40bb-b32e-e53a72023967",
+    "name": "Special Event",
+    "icon": "icon.png",
+    "version": "1.0.0",
+    "repo": "https://github.com/ZibYang/Special-Event",
+    "category": "Reference",
+    "bundle": "cn.edu.zju.12021074.special.event",
+    "featuredImage": "special_event_featuredImage.png",
+    "slogan": "Experience Apple's special event in 3D space."
+}
