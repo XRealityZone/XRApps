@@ -87,7 +87,7 @@ Folder
 | icon          | 必要       | 应用图标，推荐大小为512 * 512，自动裁切为圆形，目前还不支持填写图片链接，需要将所有图片存到文件夹中，并在 JSON 文件中使用相对路径调用。                                                                                                     |
 | version       | 必要       | 应用当前版本，支持  `A.B` 和 `A.B.C` 两种格式                                                                                                                                                 |
 | repo          | 必要       | 应用的 GitHub Repo 地址，用于下载应用，该 Repo 无需包含源代码，但必须完成 [在 GitHub 上发布你的产品](craftdocs://open?blockId=F105C081-C8B4-4D9F-9959-DDB95508E30F&spaceId=23c2d78f-f0b2-a42c-f2cb-f0b2393adf52) 。 |
-| category      | 必要       | 应用分类，必须从以下字段中选择：`Business`，`Developer Tools`，`Education`， `Entertainment`，`Finance`，`Games`，`Graphics&Design`，`Health&Fitness`，`Lifestyle`，`Medical` ，`Music` ，`Photo&Video`，`Productivity`，`Reference`，`Social Networking`，`Sports`，`Travel`，`Utilities`，`Weather`                                                 |
+| category      | 必要       | 应用分类，必须从以下字段中选择：`Game`，`Work`，`Create`， `Develop`                                          |
 | bundle        | 必要       | 上传应用的 Bundle ID                                                                                                                                                                 |
 | featuredImage | 非必要      | 应用精选图片，推荐大小为 1300*800，如不添加，应用将不会在首页精选区展示，每张图片请控制在 1MB 以内；目前还不支持填写图片链接，需要将所有图片存到文件夹中，并在 JSON 文件中使用相对路径调用。                                                                        |
 | slogan        | 非必要      | 应用标语，如果填写了 `featuredImage` 则必须填写该字段                                                                                                                                             |
