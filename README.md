@@ -1,5 +1,7 @@
 # visionOS 应用提交指南
 
+如果你对英文比较熟悉，请查看[英文文档](https://github.com/XRealityZone/XRApps/blob/main/README.md)
+
 ## 欢迎你的加入
 
 Apple Vision Pro 发布预示着空间计算时代的到来，让科技爱好者和开发者开始思考如何在新的交互、系统和硬件上打造独特的三维应用。
