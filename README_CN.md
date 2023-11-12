@@ -20,7 +20,7 @@ Let’s xrOS 是一个 visionOS 应用交流平台 ，它将允许你将自己�
 
 ## 在 GitHub 上发布你的产品
 
-- 运行你的项目，找到当前应用在 visionOS 模拟器下的二进制文件，将其压缩成 ZIP 包，保证其名称为 `app.zip` ，注意压缩包的名称不能更换，否则会导致检索应用信息失败
+- 运行你的项目，找到当前应用在 visionOS 模拟器下的二进制文件，将其压缩成 ZIP 包，保证其名称为 `app.zip` ，注意压缩包的名称不能更换，否则会导致检索应用信息失败(如果你不知道如何操作，可以查看 [FAQ 的第一个问题](https://github.com/XRealityZone/XRApps/blob/main/README_CN.md#faq))
 
 <p align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/1faeadfa-2fca-4016-80b5-710622c3a55d" width="50%" height="50%">
