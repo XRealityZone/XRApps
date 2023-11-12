@@ -142,7 +142,15 @@ Folder
 
 **Q：visionOSシミュレーターで現在のアプリのバイナリファイルをどこで見つけることができますか？**
 
-A：シミュレーターバージョンのバイナリファイルを取得するには3つのステップがあります：
+A: 
+
+方法一：`Product` -> `Show Build Folder in Finder` からバイナリファイルを見つけます。
+
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/f79fe5c4-3ced-4003-a465-71fd10b34b79" width="50%" height="50%">
+</p>
+
+方法二：シミュレータ版のバイナリファイルを取得するには、以下の3ステップがあります：
 
 - 左上隅の `Run` ボタンをクリックするか、または `CMD + R` のショートカットキーを使用してあなたのvisionOSプログラムを実行し、コードの実行プラットフォームがvisionOSシミュレーターであることを確認してください。
 
