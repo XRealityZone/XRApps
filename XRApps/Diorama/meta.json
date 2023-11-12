@@ -6,5 +6,6 @@
     "repo": "https://github.com/XRealityZone/Apple_Diorama",
     "category": "develop",
     "bundle": "xyz.sketchk.diorama",
-    "slogan": "Design scenes for your visionOS app using Reality Composer Pro."
+    "slogan": "Design scenes for your visionOS app using Reality Composer Pro.",
+    "compileVersion": "21N5259i"
 }
