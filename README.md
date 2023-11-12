@@ -1,4 +1,4 @@
-# visionOS App Submission Guide
+# App Submission Guide
 
 > If you are proficient in English, please refer to the [English documentation](https://github.com/XRealityZone/XRApps/blob/main/README.md)
 
