@@ -6,5 +6,6 @@
     "repo": "https://github.com/XRealityZone/Apple_DestinationVideo",
     "category": "develop",
     "bundle": "xyz.skethk.destinationvideo",
-    "slogan": "Leverage 3D video and Spatial Audio to deliver an immersive experience."
+    "slogan": "Leverage 3D video and Spatial Audio to deliver an immersive experience.",
+    "compileVersion": "21N5259i"
 }
