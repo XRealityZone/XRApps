@@ -3,6 +3,7 @@
     "name": "Swift Splash",
     "icon": "logo.png",
     "version": "1.0.0",
+    "compileVersion": "21N5259i",
     "repo": "https://github.com/XRealityZone/Apple_SwiftSplash",
     "category": "develop",
     "bundle": "xyz.sketchk.swiftsplash",
