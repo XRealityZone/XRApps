@@ -1,6 +1,8 @@
 # アプリ提出ガイド
 
-英語に精通している場合は、[英語版](https://github.com/XRealityZone/XRApps/blob/main/README.md)の説明をお読みください。
+> * 英語に精通している場合は、[英語版](https://github.com/XRealityZone/XRApps/blob/main/README.md)の説明をお読みください。
+> * 中国語に精通している場合は、[中国語版](https://github.com/XRealityZone/XRApps/blob/main/README_CN.md)の説明をお読みください。
+> * 日本語に精通している場合は、[日本語版](https://github.com/XRealityZone/XRApps/blob/main/README_JP.md)の説明をお読みください。
 
 ## あなたの参加を歓迎します
 
