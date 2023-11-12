@@ -6,6 +6,7 @@
     "repo": "https://github.com/XRealityZone/Apple_SwiftSplash",
     "category": "develop",
     "bundle": "xyz.sketchk.swiftsplash",
-    "slogan": "Use RealityKit to create an interactive ride in visionOS."
+    "slogan": "Use RealityKit to create an interactive ride in visionOS.",
+    "compileVersion": "21N5259i"
 }
 
