@@ -6,5 +6,6 @@
     "repo": "https://github.com/XRealityZone/Apple_HappyBeam",
     "category": "play",
     "bundle": "xyz.sketchk.happybeam",
-    "slogan": "Leverage a Full Space to create a fun game using ARKit."
+    "slogan": "Leverage a Full Space to create a fun game using ARKit.",
+    "compileVersion": "21N5259i"
 }
