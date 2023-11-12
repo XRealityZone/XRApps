@@ -1,0 +1,12 @@
+{
+    "id": "605cceba-3f8a-4e8e-b433-157f54514e0c",
+    "name": "Oh My Flag",
+    "icon": "icon.png",
+    "version": "1.1.0",
+    "repo": "https://github.com/yongfrank/OhMyFlag-WWDC22",
+    "compileVersion": "21N5259i",
+    "category": "Develop",
+    "bundle": "com.yongfrank.Oh-My-Flag",
+    "featuredImage": "featuredImage.jpeg",
+    "slogan": "Discover world's flags!"
+}
