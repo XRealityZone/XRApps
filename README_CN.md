@@ -74,6 +74,7 @@ Folder
     "name": "HelloWorld",
     "icon": "icon.png",
     "version": "1.0.0",
+    "compileVersion": "21N5259i",
     "repo": "https://github.com/XRealityZone/what-vision-os-can-do",
     "category": "Developer",
     "bundle": "zone.xreality.WhatVisionOSCanDo",
@@ -90,7 +91,8 @@ Folder
 | name          | 必要       | 应用名称                                                                                                                                                                            |
 | icon          | 必要       | 应用图标，推荐大小为512 * 512，自动裁切为圆形，目前还不支持填写图片链接，需要将所有图片存到文件夹中，并在 JSON 文件中使用相对路径调用。                                                                                                     |
 | version       | 必要       | 应用当前版本，支持  `A.B` 和 `A.B.C` 两种格式                                                                                                                                                 |
-| repo          | 必要       | 应用的 GitHub Repo 地址，用于下载应用，该 Repo 无需包含源代码，但必须完成 [在 GitHub 上发布你的产品](craftdocs://open?blockId=F105C081-C8B4-4D9F-9959-DDB95508E30F&spaceId=23c2d78f-f0b2-a42c-f2cb-f0b2393adf52) 。 |
+| compileVersion| 必要       | 当前 App 对应的 visionOS 模拟器版本号，通过 `Xcode` -> `Setting` -> `Platforms` 里的界面查看具体信息 |
+| repo          | 必要       | 应用的 GitHub Repo 地址，用于下载应用，该 Repo 无需包含源代码，但必须完成 [在 GitHub 上发布你的产品](craftdocs://open?blockId=F105C081-C8B4-4D9F-9959-DDB95508E30F&spaceId=23c2d78f-f0b2-a42c-f2cb-f0b2393adf52)  |
 | category      | 必要       | 应用分类，必须从以下字段中选择：`Play`，`Work`，`Create`， `Develop`                                          |
 | bundle        | 必要       | 上传应用的 Bundle ID                                                                                                                                                                 |
 | featuredImage | 非必要      | 应用精选图片，推荐大小为 1300*800，如不添加，应用将不会在首页精选区展示，每张图片请控制在 1MB 以内；目前还不支持填写图片链接，需要将所有图片存到文件夹中，并在 JSON 文件中使用相对路径调用。                                                                        |
@@ -167,3 +169,11 @@ A：在 `Release` 界面点击 `Choose a tag`，并在下拉列表的文本框�
 <p align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/5b86c3fb-d4f9-4b03-8147-1aa2b6a2aa0b" width="50%" height="50%">
 </p>
+
+**Q: 如何查找 compileVersion 或 visionOS 模拟器的版本？**
+
+A: 打开 Xcode 并通过 `Xcode` -> `Setting` -> `Locations` 找到 visionOS 模拟器。
+
+<div align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/c05c1be1-b7e7-4398-b616-f916983dcc34" width="50%" height="50%">
+</div>
