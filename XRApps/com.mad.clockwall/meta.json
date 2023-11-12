@@ -1,0 +1,12 @@
+{
+    "id": "76c52fae-5272-498f-8523-3a41914804ba",
+    "name": "Clock Wall",
+    "icon": "icon.png",
+    "version": "1.4.2",
+    "compileVersion": "21N5259i",
+    "repo": "https://github.com/vulgur/ClockWall-visionOS",
+    "category": "Work",
+    "bundle": "com.mad.clockwall",
+    "featuredImage": "featuredImage.png",
+    "slogan": "Clock in clocks"
+}
