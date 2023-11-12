@@ -90,6 +90,7 @@ The explanation for each field's usage is as follows:
 | name           | Yes      | Application name                                                                                                         |
 | icon           | Yes      | Application icon, recommended size is 512x512, will be cropped to a circle; currently, image links are not supported, store all images in the folder and call them using relative paths in the JSON file. |
 | version        | Yes      | Current application version, supports `A.B` and `A.B.C` formats.                                                         |
+| compileVersion | Yes      | The current App corresponds to the version number of the visionOS simulator, you can check the specific information through the interface in `Xcode` -> `Setting` -> `Platforms`.                                                         |
 | repo           | Yes      | GitHub Repo URL for downloading the app; this repo does not need to contain the source code.                             |
 | category       | Yes      | Application category, must choose from `Play`, `Work`, `Create`, `Develop`.                                              |
 | bundle         | Yes      | The Bundle ID of the uploaded app.                                                                                       |
@@ -168,4 +169,12 @@ A: Click on `Choose a tag` in the `Release` page, and fill in the version number
 
 <div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/5b86c3fb-d4f9-4b03-8147-1aa2b6a2aa0b" width="50%" height="50%">
+</div>
+
+**Q: How to find compileVersion or visionOS Simulator's Version?** 
+
+A: Open Xcode and find visionOS Simulator through `Xcode` -> `Setting` -> `Locations`.
+
+<div align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/c05c1be1-b7e7-4398-b616-f916983dcc34" width="50%" height="50%">
 </div>
