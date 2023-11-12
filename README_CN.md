@@ -140,7 +140,13 @@ Folder
 
 **Q：在哪里能找到当前应用在 visionOS 模拟器下的二进制文件？**
 
-A：获取模拟器版本的二进制文件分为 3 步：
+A：方法一：在 Product -> Show Build Folder in Finder 中找到二进制文件
+
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/f79fe5c4-3ced-4003-a465-71fd10b34b79" width="50%" height="50%">
+</p>
+
+方法二： 获取模拟器版本的二进制文件分为 3 步：
 
 - 点击左上角的 `Run` 按钮或者使用快捷键 `CMD + R` 运行你的 visionOS 程序，确保代码运行的平台为 visionOS 模拟器平台。
 
