@@ -7,5 +7,6 @@
     "category": "work",
     "bundle": "cn.edu.zju.12021074.special.event",
     "featuredImage": "special_event_featuredImage.png",
-    "slogan": "Experience Apple's special event in 3D space."
+    "slogan": "Experience Apple's special event in 3D space.",
+    "compileVersion": "21N5259i"
 }
