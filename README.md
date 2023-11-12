@@ -1,6 +1,6 @@
 # visionOS 应用提交指南
 
-如果你对英文比较熟悉，请查看[英文文档](https://github.com/XRealityZone/XRApps/blob/main/README.md)
+> 如果你对英文比较熟悉，请查看[英文文档](https://github.com/XRealityZone/XRApps/blob/main/README.md)
 
 ## 欢迎你的加入
 
