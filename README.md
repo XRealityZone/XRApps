@@ -16,9 +16,11 @@ We hope this tool will foster more frequent communication among developers and p
 
 Let's xrOS is a platform for exchanging visionOS applications, allowing you to distribute your developed visionOS apps to enthusiasts worldwide.
 
-This repository is the application index repository for Let's xrOS. If you wish to **publish, distribute, or update** an existing app on Let's xrOS, you need to submit the relevant metadata files in this repository.
-
-> Please note that you do not need to upload the application body to this repository. In addition, Let's xrOS does not require you to open source your app; you only need to upload the basic metadata to start distributing your app.
+> Tip 1: **Note that you do not need to upload the application body to this repository; moreover, Let’s xrOS does not force you to open source your application. You only need to upload the basic metadata to start distributing your application.**
+> 
+> Tip 2: This is the application retrieval repository for Let’s xrOS. If you wish to **publish or update** your application on Let’s xrOS, you need to submit the related metadata files to this repository.
+> 
+> Tip 3: If you want to download Let's xrOS applications, you can do so from the release page of [this repository](https://github.com/XRealityZone/Let-us-xrOS). With this application, you can explore other developers' visionOS applications.
 
 ## Publishing Your Product on GitHub
 
