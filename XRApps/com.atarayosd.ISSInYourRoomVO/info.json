@@ -1,0 +1,6 @@
+{
+    "author": "Yasuhito Nagatomo",
+    "description": "A minimal AR app on visionOS, which shows the ISS in your room.",
+    "developerWebsite": "https://www.atarayosd.com/developer.html",
+    "images": ["1.png","2.png"]
+}
