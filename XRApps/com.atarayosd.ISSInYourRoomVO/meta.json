@@ -1,0 +1,11 @@
+{
+    "id": "71cfcb34-8adc-4e0f-b4f1-b733637d9d10",
+    "name": "ISSInYourRoomVO",
+    "icon": "icon.png",
+    "version": "0.0.1",
+    "repo": "https://github.com/ynagatomo/ISSInYourRoomVO",
+    "category": "Create",
+    "bundle": "com.atarayosd.ISSInYourRoomVO",
+    "slogan": "A minimal AR app on visionOS, which shows the ISS in your room.",
+    "compileVersion": "21N5259i"
+}
