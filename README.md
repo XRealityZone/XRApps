@@ -142,7 +142,14 @@ Explanation of each field's use:
 
 **Q: Where can I find the binary file of the current app under the visionOS simulator?**
 
-A: Obtaining the simulator version of the binary file is in 3 steps:
+A: Method 1: Find the binary file in Product -> Show Build Folder in Finder
+
+<p align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/f79fe5c4-3ced-4003-a465-71fd10b34b79" width="50%" height="50%">
+</p>
+
+Method 2: Getting the binary file for the simulator version involves 3 steps:
+
 
 - Click the `Run` button in the upper left corner or use the shortcut `CMD + R` to run your visionOS program, making sure the platform for code execution is the visionOS simulator platform.
 
