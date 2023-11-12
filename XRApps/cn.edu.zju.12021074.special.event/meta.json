@@ -3,7 +3,6 @@
     "name": "Special Event",
     "icon": "icon.png",
     "version": "1.0.0",
-    "compileVersion": "21N5259i",
     "repo": "https://github.com/ZibYang/Special-Event",
     "category": "work",
     "bundle": "cn.edu.zju.12021074.special.event",
