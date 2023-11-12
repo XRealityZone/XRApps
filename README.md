@@ -20,7 +20,7 @@ This repository is the application index repository for Let's xrOS. If you wish 
 
 ## Publishing Your Product on GitHub
 
-- Run your project to locate the binary file of your current application under the visionOS simulator, compress it into a ZIP file named `app.zip`, and ensure the package name is unchanged to avoid indexing errors.
+- Run your project to locate the binary file of your current application under the visionOS simulator, compress it into a ZIP file named `app.zip`, and ensure the package name is unchanged to avoid indexing errors.(If you don't know how to do, please look at [first question of Q&A](https://github.com/XRealityZone/XRApps/tree/main#faq) )
 
 <div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/1faeadfa-2fca-4016-80b5-710622c3a55d" width="50%" height="50%">
