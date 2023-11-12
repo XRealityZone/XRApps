@@ -1,0 +1,6 @@
+{
+    "author": "XanderXu",
+    "description": "An L-System, or Lindenmayer System is a simple but elegant rendering platform. Self-similarity and fractal-like forms make it easy to generate plant and other natural-looking organic forms. This app use L-systems for generating 2D images and 3D models.",
+    "developerWebsite": "https://github.com/XanderXu",
+    "images": ["1.png","2.png"]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "380ca12c-9ad4-40b1-9922-42a88a756a68",
+    "name": "Plant Matrix",
+    "icon": "icon.png",
+    "version": "0.0.1",
+    "repo": "https://github.com/XanderXu/PlantMatrixForXRApps",
+    "category": "Create",
+    "bundle": "com.reality.PlantMatrix",
+    "featuredImage": "2.png",
+    "slogan": "Use L-system to build your own plant.",
+    "compileVersion": "21N5259i"
+}
