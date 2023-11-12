@@ -1,62 +1,62 @@
-# visionOS 应用提交指南
+# visionOS App Submission Guide
 
-> 如果你对英文比较熟悉，请查看[英文文档](https://github.com/XRealityZone/XRApps/blob/main/README.md)
+> If you are proficient in English, please refer to the [English documentation](https://github.com/XRealityZone/XRApps/blob/main/README.md)
 
-## 欢迎你的加入
+## Welcome to Join Us
 
-Apple Vision Pro 发布预示着空间计算时代的到来，让科技爱好者和开发者开始思考如何在新的交互、系统和硬件上打造独特的三维应用。
+The release of Apple Vision Pro heralds the advent of the spatial computing era, prompting tech enthusiasts and developers to contemplate how to create unique three-dimensional applications on new interactions, systems, and hardware.
 
-自 WWDC 2023 的发布会后，社交媒体上涌现了许多精美的 visionOS App 的效果图和演示视频，然而，由于 Apple Vision Pro 还未正式发布，所以我们很难试玩到其他开发者的作品。
+Since the WWDC 2023 keynote, social media has been flooded with beautiful mockups and demo videos of visionOS Apps. However, it's challenging to try other developers' creations because the Apple Vision Pro hasn't been officially released yet.
 
-为了解决这个问题，我们开发了 Let’s visionOS 这个 App，通过它，你可以试玩到社区里其他创作者的 visionOS App，抢先一步体验空间计算设备的魅力。
+To address this issue, we developed the Let's visionOS App. Through it, you can try out visionOS Apps created by other community members and get an early taste of the allure of spatial computing devices.
 
-我们希望通过这个工具，能让开发者之间的交流更加频繁，并促进整个社区的发展。
+We hope this tool will foster more frequent communication among developers and promote the growth of the entire community.
 
-Let’s visionOS 是一个 visionOS 应用交流平台 ，它将允许你将自己开发的 visionOS 应用分发给来自世界各地的尝鲜者们。
+Let's visionOS is a platform for exchanging visionOS applications, allowing you to distribute your developed visionOS apps to enthusiasts worldwide.
 
-本仓库是 Let’s visionOS 的应用检索仓库。如果你想在 Let’s visionOS 上 **发布，分发，或是更新** 已有应用，你需要在本仓库提交相关元信息文件。
+This repository is the application index repository for Let's visionOS. If you wish to **publish, distribute, or update** an existing app on Let's visionOS, you need to submit the relevant metadata files in this repository.
 
-> 注意，你无需在本仓库上传应用本体，此外 Let’s visionOS  没有强制你必须开源你的应用，你只需要上传基本的元信息就可以开始分发你的应用。
+> Please note that you do not need to upload the application body to this repository. In addition, Let's visionOS does not require you to open source your app; you only need to upload the basic metadata to start distributing your app.
 
-## 在 GitHub 上发布你的产品
+## Publishing Your Product on GitHub
 
-- 运行你的项目，找到当前应用在 visionOS 模拟器下的二进制文件，将其压缩成 ZIP 包，保证其名称为 `app.zip` ，注意压缩包的名称不能更换，否则会导致检索应用信息失败
+- Run your project to locate the binary file of your current application under the visionOS simulator, compress it into a ZIP file named `app.zip`, and ensure the package name is unchanged to avoid indexing errors.
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/1faeadfa-2fca-4016-80b5-710622c3a55d" width="50%" height="50%">
-</p>
+</div>
 
 
-- 在 GitHub 上创建当前应用的仓库（如果已经创建过，则跳过该步骤）。注意，请保证仓库类型是 `Public` 类型，否则会导致应用信息检索失败
+- Create a repository for the current app on GitHub (if you've already done so, skip this step). Ensure the repository is of `Public` type, as private ones will fail the app information retrieval.
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/1e6d4e10-9bbf-4951-a832-e54b9cad488a" width="50%" height="50%">
-</p>
+</div>
 
-- 进入该仓库的 `Release` 界面，选择需要发布的 tag 号，并上传压缩包，即之前准备的`app.zip` ，填写相应的 Release 版本名称（推荐此名称与 tag 号保持相同）。
+- Navigate to the `Release` page of the repository, select the tag to be released, and upload the `app.zip` package prepared earlier, filling in the corresponding Release version name (recommended to keep it the same as the tag number).
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/274944f9-dc0f-4c39-b008-1d9e4135663c" width="50%" height="50%">
-</p>
+</div>
 
 
-## 提交你的 App 信息到 XReality.Zone 的信息源中
+## Submitting Your App Information to XReality.Zone's Source
 
-- 对 XReality.Zone 的 [XRApps 仓库](https://github.com/XRealityZone/XRApps) 进行 Fork 操作。
+- Fork the [XRApps repository](https://github.com/XRealityZone/XRApps) at XReality.Zone.
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/12e7e8a5-05b3-404b-9416-711638511e0d" width="50%" height="50%">
-</p>
+</div>
 
-- 克隆 Fork 后的仓库到本地并创建新的分支，分支的命名规则为 `app/Your_App’s_Bundle_ID`
+- Clone the forked repository locally and create a new branch, naming it `app/Your_App’s_Bundle_ID`.
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/404f8549-3653-4044-b913-faf09cee25a3" width="50%" height="50%">
-</p>
+</div>
 
-- 每个需要在平台上发布的应用，都需要在本仓库下的 `XRApps` 中创建一个文件夹，并在文件夹中包含相关文件。为了防止文件夹名称重复，我们建议你将文件夹命名为具有唯一性质的名字，如 Bundle ID。下面是文件夹的基本结构：
+- Each app to be published on the platform needs to have a folder in `XRApps` containing relevant files. To avoid folder name duplication, it is recommended to name the folder with a unique identifier, such as the Bundle ID. Here's the basic folder structure:
 
-```other
+```plaintext
 Folder
   - meta.json 
   - info.json
@@ -64,9 +64,9 @@ Folder
   - some_photo.png
 ```
 
-- `meta.json` 用来储存应用的基本元信息，主要被用来标识应用和检索使用。下面是一个示例文件：
+- `meta.json` stores the basic metadata of the app, mainly used for identification and retrieval. Here's an example file:
 
-```other
+```plaintext
 {
     "id": "579271a6-b86a-4dae-bbed-f856e830b42d",
     "name": "HelloWorld",
@@ -80,21 +80,21 @@ Folder
 }
 ```
 
-以下是对于各字段用法的解释：
+The explanation for each field's usage is as follows:
 
-| **字段名称**      | **是否必要** | **用途**                                                                                                                                                                          |
-| ------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| id            | 必要       | 应用标识，为 UUID 字符串，需自行生成，不能重复；推荐使用 [Online UUID Generator](https://www.uuidgenerator.net/) 的 V4 版本生成 UUID                                                                          |
-| name          | 必要       | 应用名称                                                                                                                                                                            |
-| icon          | 必要       | 应用图标，推荐大小为512 * 512，自动裁切为圆形，目前还不支持填写图片链接，需要将所有图片存到文件夹中，并在 JSON 文件中使用相对路径调用。                                                                                                     |
-| version       | 必要       | 应用当前版本，支持  `A.B` 和 `A.B.C` 两种格式                                                                                                                                                 |
-| repo          | 必要       | 应用的 GitHub Repo 地址，用于下载应用，该 Repo 无需包含源代码，但必须完成 [在 GitHub 上发布你的产品](craftdocs://open?blockId=F105C081-C8B4-4D9F-9959-DDB95508E30F&spaceId=23c2d78f-f0b2-a42c-f2cb-f0b2393adf52) 。 |
-| category      | 必要       | 应用分类，必须从以下字段中选择：`Play`，`Work`，`Create`， `Develop`                                          |
-| bundle        | 必要       | 上传应用的 Bundle ID                                                                                                                                                                 |
-| featuredImage | 非必要      | 应用精选图片，推荐大小为 1300*800，如不添加，应用将不会在首页精选区展示，每张图片请控制在 1MB 以内；目前还不支持填写图片链接，需要将所有图片存到文件夹中，并在 JSON 文件中使用相对路径调用。                                                                        |
-| slogan        | 非必要      | 应用标语，如果填写了 `featuredImage` 则必须填写该字段                                                                                                                                             |
+| Field Name     | Required | Usage                                                                                                                    |
+| -------------- | -------- | ------------------------------------------------------------------------------------------------------------------------ |
+| id             | Yes      | Application identifier, a UUID string, which must be generated by the user and unique; use [Online UUID Generator](https://www.uuidgenerator.net/) for UUID generation. |
+| name           | Yes      | Application name                                                                                                         |
+| icon           | Yes      | Application icon, recommended size is 512x512, will be cropped to a circle; currently, image links are not supported, store all images in the folder and call them using relative paths in the JSON file. |
+| version        | Yes      | Current application version, supports `A.B` and `A.B.C` formats.                                                         |
+| repo           | Yes      | GitHub Repo URL for downloading the app; this repo does not need to contain the source code.                             |
+| category       | Yes      | Application category, must choose from `Play`, `Work`, `Create`, `Develop`.                                              |
+| bundle         | Yes      | The Bundle ID of the uploaded app.                                                                                       |
+| featuredImage  | No       | Featured image of the app, recommended size is 1300x800; images should be under 1MB; currently, image links are not supported. |
+| slogan         | No       | App slogan, required if `featuredImage` is provided.                                                                     |
 
-- `info.json` 用来储存应用基本内容信息，将会被渲染并展示于应用详情页面。下面是一个示例文件：
+- `info.json` stores the basic content information of the app, which will be rendered and displayed on the app detail page. Here's an example file:
 
 ```other
 {
@@ -105,64 +105,67 @@ Folder
 }
 ```
 
-以下是对于各字段用法的解释：
+Here is the translated content in English, retaining the markdown (md) format:
 
-| **字段名称**         | **是否必要** | **解释**                                                               |
-| ---------------- | -------- | -------------------------------------------------------------------- |
-| author           | 必要       | 应用开发者名称                                                              |
-| description      | 必要       | 应用简介，可使用转义字符                                                         |
-| developerWebsite | 必要       | 开发者网站                                                                |
-| images           | 必要       | 应用截图，每张图片请控制在 1MB 以内；目前还不支持填写图片链接，需要将所有图片存到文件夹中，并在 JSON 文件中使用相对路径调用。 |
+Explanation of each field's use:
 
-- 提交 commit 到自己的分支和仓库中，并在自己的仓库中发起向 XRealityZone 仓库的 PR 请求。
+```markdown
+| **Field Name**       | **Required** | **Explanation**                                                               |
+| -------------------- | ------------ | ------------------------------------------------------------------------------ |
+| author               | Yes          | Name of the app developer                                                      |
+| description          | Yes          | Introduction of the app, escape characters can be used                         |
+| developerWebsite     | Yes          | Developer's website                                                           |
+| images               | Yes          | App screenshots, each image should be controlled within 1MB; currently, image links are not supported, all images need to be stored in a folder, and called in the JSON file using relative paths. |
+```
 
-<p align="center">
+- Commit your changes to your branch and repository, and initiate a pull request (PR) to the XRealityZone repository from your repository.
+
+<div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/a3c9bfdd-3a44-455b-9c91-72dff117e9fa" width="50%" height="50%">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/3d45a8ab-2120-4a25-bcdf-6417b505c614" width="50%" height="50%">
-</p>
+</div>
 
-- 等待 XReality.Zone 的工作人员 Review 和 Merge 你的 PR，一旦你的 PR 被合入，就代表你的应用上架到了我们的交流平台。
+- Wait for the staff at XReality.Zone to review and merge your PR. Once your PR is merged, it signifies that your app has been listed on our exchange platform.
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/cafcd476-ae58-466c-a552-26544e20fc7a" width="50%" height="50%">
-</p>
+</div>
 
 ## FAQ
 
-**Q：在哪里能找到当前应用在 visionOS 模拟器下的二进制文件？**
+**Q: Where can I find the binary file of the current app under the visionOS simulator?**
 
-A：获取模拟器版本的二进制文件分为 3 步：
+A: Obtaining the simulator version of the binary file is in 3 steps:
 
-- 点击左上角的 `Run` 按钮或者使用快捷键 `CMD + R` 运行你的 visionOS 程序，确保代码运行的平台为 visionOS 模拟器平台。
+- Click the `Run` button in the upper left corner or use the shortcut `CMD + R` to run your visionOS program, making sure the platform for code execution is the visionOS simulator platform.
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/7fac429c-04d0-4a5d-bd26-b1cae603bb79" width="50%" height="50%">
-</p>
+</div>
 
-- 在出现 `Build Succeeded` 的提示框后，展开左侧导航栏里的 `Product` 文件夹，在这个目录下会有一个或多个应用（以 `.app` 为后缀的文件）存在，选择你的 visionOS 应用，右键点击并选择 `Show in Finder`按钮。
+- After the `Build Succeeded` prompt appears, expand the `Product` folder in the left navigation bar. In this directory, there will be one or more applications (files with a `.app` suffix), select your visionOS application, right-click and choose the `Show in Finder` button.
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/c216a253-1fe3-4873-8dc1-098e63b4173a" width="50%" height="50%">
-</p>
+</div>
 
-- 在此文件夹里的 `.app` 文件，即为当前应用在 visionOS 模拟器下的二进制文件。
+- The `.app` file in this folder is the binary file of the current app under the visionOS simulator.
 
-**Q: 如何找到仓库里的 Release 界面？**
+**Q: How to find the Release page in the repository?**
 
-A: 在仓库首页可以找到 `Release` 区域，点击后即可进入到 `Release` 界面。
+A: The `Release` area can be found on the homepage of the repository. Clicking it will take you to the `Release` page.
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/f6dec8ee-cebd-49e3-8e73-482392930444" width="50%" height="50%">
-</p>
+</div>
 
-**Q：如何在自己的仓库里创建 tag**
+**Q: How to create a tag in my repository?**
 
-A：在 `Release` 界面点击 `Choose a tag`，并在下拉列表的文本框里填写版本号，在填写完毕后，点击 `+ Create new tag A.B.C on publish` ，目前支持 `A.B` 和 `A.B.C` 两种格式的版本号，请保持版本号的顺序增长，不要出现倒序的情况。
+A: Click on `Choose a tag` in the `Release` page, and fill in the version number in the dropdown list's textbox. After filling it out, click `+ Create new tag A.B.C on publish`. Currently, version numbers in the format `A.B` and `A.B.C` are supported. Please ensure the version number increases in order and does not regress.
 
-<p align="center">
+<div align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/5b86c3fb-d4f9-4b03-8147-1aa2b6a2aa0b" width="50%" height="50%">
-</p>
-
+</div>
