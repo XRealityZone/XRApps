@@ -4,7 +4,7 @@
     "icon": "logo.png",
     "version": "1.0.0",
     "repo": "https://github.com/XRealityZone/Apple_SwiftSplash",
-    "category": "Developer",
+    "category": "develop",
     "bundle": "xyz.sketchk.swiftsplash",
     "slogan": "Use RealityKit to create an interactive ride in visionOS."
 }
