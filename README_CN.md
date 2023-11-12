@@ -1,10 +1,8 @@
 # 应用提交指南
 
-如果你对英文比较熟悉, 请阅读[英文版本](https://github.com/XRealityZone/XRApps/blob/main/README.md)的相关说明
-
-如果你对中文比较熟悉，请阅读[中文版本](https://github.com/XRealityZone/XRApps/blob/main/README_CN.md)的相关说明
-
-如果你对日文比较熟悉，请阅读[日文版本](https://github.com/XRealityZone/XRApps/blob/main/README_JP.md)的相关说明
+> * 如果你对英文比较熟悉, 请阅读[英文版本](https://github.com/XRealityZone/XRApps/blob/main/README.md)的相关说明
+> * 如果你对中文比较熟悉，请阅读[中文版本](https://github.com/XRealityZone/XRApps/blob/main/README_CN.md)的相关说明
+> * 如果你对日文比较熟悉，请阅读[日文版本](https://github.com/XRealityZone/XRApps/blob/main/README_JP.md)的相关说明
 
 ## 欢迎你的加入
 
