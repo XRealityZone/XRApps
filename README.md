@@ -74,6 +74,7 @@ Folder
     "name": "HelloWorld",
     "icon": "icon.png",
     "version": "1.0.0",
+    "compileVersion": "21N5259i",
     "repo": "https://github.com/XRealityZone/what-vision-os-can-do",
     "category": "Developer",
     "bundle": "zone.xreality.WhatVisionOSCanDo",
