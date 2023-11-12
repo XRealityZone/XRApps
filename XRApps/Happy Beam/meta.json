@@ -3,6 +3,7 @@
     "name": "Happy Beam",
     "icon": "icon.png",
     "version": "1.0.0",
+    "compileVersion": "21N5259i",
     "repo": "https://github.com/XRealityZone/Apple_HappyBeam",
     "category": "play",
     "bundle": "xyz.sketchk.happybeam",
