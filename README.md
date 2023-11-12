@@ -109,14 +109,12 @@ Here is the translated content in English, retaining the markdown (md) format:
 
 Explanation of each field's use:
 
-```markdown
 | **Field Name**       | **Required** | **Explanation**                                                               |
 | -------------------- | ------------ | ------------------------------------------------------------------------------ |
 | author               | Yes          | Name of the app developer                                                      |
 | description          | Yes          | Introduction of the app, escape characters can be used                         |
 | developerWebsite     | Yes          | Developer's website                                                           |
 | images               | Yes          | App screenshots, each image should be controlled within 1MB; currently, image links are not supported, all images need to be stored in a folder, and called in the JSON file using relative paths. |
-```
 
 - Commit your changes to your branch and repository, and initiate a pull request (PR) to the XRealityZone repository from your repository.
 
