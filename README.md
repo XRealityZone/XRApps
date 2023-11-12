@@ -1,6 +1,8 @@
 # App Submission Guide
 
-> If you are proficient in Chinese, please refer to the [Chinese documentation](https://github.com/XRealityZone/XRApps/blob/main/README_CN.md)
+> * If you are proficient in English, please read the [English version](https://github.com/XRealityZone/XRApps/blob/main/README.md) of the instructions.
+> * If you are proficient in Chinese, please read the [Chinese version](https://github.com/XRealityZone/XRApps/blob/main/README_CN.md) of the instructions.
+> * If you are proficient in Japanese, please read the [Japanese version](https://github.com/XRealityZone/XRApps/blob/main/README_JP.md) of the instructions.
 
 ## Welcome to Join Us
 
