@@ -8,15 +8,15 @@ The release of Apple Vision Pro heralds the advent of the spatial computing era,
 
 Since the WWDC 2023 keynote, social media has been flooded with beautiful mockups and demo videos of visionOS Apps. However, it's challenging to try other developers' creations because the Apple Vision Pro hasn't been officially released yet.
 
-To address this issue, we developed the Let's visionOS App. Through it, you can try out visionOS Apps created by other community members and get an early taste of the allure of spatial computing devices.
+To address this issue, we developed the Let's xrOS App. Through it, you can try out visionOS Apps created by other community members and get an early taste of the allure of spatial computing devices.
 
 We hope this tool will foster more frequent communication among developers and promote the growth of the entire community.
 
-Let's visionOS is a platform for exchanging visionOS applications, allowing you to distribute your developed visionOS apps to enthusiasts worldwide.
+Let's xrOS is a platform for exchanging visionOS applications, allowing you to distribute your developed visionOS apps to enthusiasts worldwide.
 
-This repository is the application index repository for Let's visionOS. If you wish to **publish, distribute, or update** an existing app on Let's visionOS, you need to submit the relevant metadata files in this repository.
+This repository is the application index repository for Let's xrOS. If you wish to **publish, distribute, or update** an existing app on Let's xrOS, you need to submit the relevant metadata files in this repository.
 
-> Please note that you do not need to upload the application body to this repository. In addition, Let's visionOS does not require you to open source your app; you only need to upload the basic metadata to start distributing your app.
+> Please note that you do not need to upload the application body to this repository. In addition, Let's xrOS does not require you to open source your app; you only need to upload the basic metadata to start distributing your app.
 
 ## Publishing Your Product on GitHub
 
