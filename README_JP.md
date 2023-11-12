@@ -72,6 +72,7 @@ Folder
     "name": "HelloWorld",
     "icon": "icon.png",
     "version": "1.0.0",
+    "compileVersion": "21N5259i",
     "repo": "https://github.com/XRealityZone/what-vision-os-can-do",
     "category": "Developer",
     "bundle": "zone.xreality.WhatVisionOSCanDo",
@@ -88,6 +89,8 @@ Folder
 | name             | 必要       | アプリ名                                                                                                                                                                          |
 | icon             | 必要       | アプリのアイコンで、512 * 512 のサイズを推奨し、円形に自動カットされます。現在は画像リンクの記入には対応しておらず、すべての画像をフォルダに保存し、JSONファイルで相対パスを使用して呼び出す必要があります。                                          |
 | version          | 必要       | アプリの現在のバージョンで、`A.B` と `A.B.C` の2つのフォーマットをサポートしています。                                                                                                    |
+| compileVersion   | 必要      | 現在のアプリはvisionOSシミュレータのバージョン番号に対応しており、`Xcode` -> `Setting` -> `Platforms` のインターフェースを通じて具体的な情報を確認できます。|
+
 | repo             | 必要       | アプリの GitHub Repo のアドレスで、アプリをダウンロードするために使用されます。この Repo はソースコードを含む必要はありませんが、[GitHubで製品を公開する](craftdocs://open?blockId=F105C081-C8B4-4D9F-9959-DDB95508E30F&spaceId=23c2d78f-f0b2-a42c-f2cb-f0b2393adf52) が完了している必要があります。 |
 | category         | 必要       | アプリのカテゴリーで、以下のフィールドから選択する必要があります：`Play`、`Work`、`Create`、`Develop`                                                                                        |
 | bundle           | 必要       | アプリの Bundle ID                                                                                                                                                               |
@@ -167,3 +170,11 @@ A：`Release` インターフェースで `Choose a tag` をクリックし、�
 <p align="center">
   <img src="https://github.com/XRealityZone/XRApps/assets/11788119/5b86c3fb-d4f9-4b03-8147-1aa2b6a2aa0b" width="50%" height="50%">
 </p>                                                             
+
+**Q: compileVersionまたはvisionOSシミュレータのバージョンを見つける方法は？**
+
+A: Xcodeを開き、`Xcode` -> `Setting` -> `Locations` からvisionOSシミュレータを探します。
+
+<div align="center">
+  <img src="https://github.com/XRealityZone/XRApps/assets/11788119/c05c1be1-b7e7-4398-b616-f916983dcc34" width="50%" height="50%">
+</div>
