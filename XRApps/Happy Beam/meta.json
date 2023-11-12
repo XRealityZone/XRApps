@@ -4,7 +4,7 @@
     "icon": "icon.png",
     "version": "1.0.0",
     "repo": "https://github.com/XRealityZone/Apple_HappyBeam",
-    "category": "Games",
+    "category": "play",
     "bundle": "xyz.sketchk.happybeam",
     "slogan": "Leverage a Full Space to create a fun game using ARKit."
 }
