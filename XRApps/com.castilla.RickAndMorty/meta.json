@@ -1,0 +1,10 @@
+{
+    "id": "61b88c92-65df-4660-9638-560028d0ec1c",
+    "name": "Rick and Morty",
+    "icon": "icon.png",
+    "version": "1.0.0",
+    "compileVersion": "21N5207f",
+    "repo": "https://github.com/AdrianZzito/Rick-Morty-visionOS.git",
+    "category": "Developer",
+    "bundle": "com.castilla.RickAndMorty"
+}
